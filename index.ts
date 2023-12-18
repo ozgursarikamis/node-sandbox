@@ -10,6 +10,7 @@ import { AsyncSubjectSample } from "./subjects/AsyncSubjectSample";
 import { ConcatMapSamples } from "./operators/mapping/concatMap";
 import { ConcatSample } from "./operators/mapping/concat";
 import { Merge } from "./operators/mapping/merge";
+import { MergeMapSample } from "./operators/mapping/mergeMap";
 
 // CombineAllSamples.run();
 // CombineLatestWithSamples.Run();
@@ -21,4 +22,5 @@ import { Merge } from "./operators/mapping/merge";
 // SubjectSamples.voidSubject();
 // ConcatMapSamples.Run();
 // ConcatSample.Run();
-Merge.Run();
+// Merge.Run();
+MergeMapSample.Run();
