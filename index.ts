@@ -7,6 +7,8 @@ import { SubjectSamples } from "./subjects/SubjectSamples";
 import { BehaviorSubjectSample } from "./subjects/BehaviorSubjectSample";
 import { ReplaySubjectSample } from "./subjects/ReplaySubjectSample";
 import { AsyncSubjectSample } from "./subjects/AsyncSubjectSample";
+import { ConcatMapSamples } from "./operators/mapping/concatMap";
+import { ConcatSample } from "./operators/mapping/concat";
 
 // CombineAllSamples.run();
 // CombineLatestWithSamples.Run();
@@ -15,4 +17,6 @@ import { AsyncSubjectSample } from "./subjects/AsyncSubjectSample";
 // BehaviorSubjectSample.Run();
 // ReplaySubjectSample.Run();
 // AsyncSubjectSample.Run();
-SubjectSamples.voidSubject();
+// SubjectSamples.voidSubject();
+// ConcatMapSamples.Run();
+ConcatSample.Run();
