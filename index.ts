@@ -5,9 +5,11 @@ import { MulticastSubjectSample } from "./subjects/MulticastSubjectSample";
 import { SubjectAnotherSubscriber } from "./subjects/SubjectAnotherSubscriber";
 import { SubjectSamples } from "./subjects/SubjectSamples";
 import { BehaviorSubjectSample } from "./subjects/BehaviorSubjectSample";
+import { ReplaySubjectSample } from "./subjects/ReplaySubjectSample";
 
 // CombineAllSamples.run();
 // CombineLatestWithSamples.Run();
 // SubjectSamples.Run();
 // MulticastSubjectSample.Run();
-BehaviorSubjectSample.Run();
+// BehaviorSubjectSample.Run();
+ReplaySubjectSample.Run();
