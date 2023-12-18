@@ -18,5 +18,5 @@ import { ConcatSample } from "./operators/mapping/concat";
 // ReplaySubjectSample.Run();
 // AsyncSubjectSample.Run();
 // SubjectSamples.voidSubject();
-// ConcatMapSamples.Run();
-ConcatSample.Run();
+ConcatMapSamples.Run();
+// ConcatSample.Run();
