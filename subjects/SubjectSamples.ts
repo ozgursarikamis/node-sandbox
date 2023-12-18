@@ -14,4 +14,15 @@ export class SubjectSamples {
         });
     }
     subject$: Subject<number> = new Subject<number>();
+
+    // Sometimes the emitted value doesn't matter 
+    // as much as the fact that a value was emitted.
+    // For instance, the code below signals that one second has passed.
+    static voidSubject(): void {
+        const subject$ = new Subject<void>();
+        subject$.subscribe({
+            next: () => console.log(`One second has passed`),
+        });
+        // setInterval(() => subject$.next(), 1000);
+    }
 }

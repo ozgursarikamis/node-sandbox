@@ -14,4 +14,5 @@ import { AsyncSubjectSample } from "./subjects/AsyncSubjectSample";
 // MulticastSubjectSample.Run();
 // BehaviorSubjectSample.Run();
 // ReplaySubjectSample.Run();
-AsyncSubjectSample.Run();
+// AsyncSubjectSample.Run();
+SubjectSamples.voidSubject();
