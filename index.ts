@@ -11,6 +11,7 @@ import { ConcatMapSamples } from "./operators/mapping/concatMap";
 import { ConcatSample } from "./operators/mapping/concat";
 import { Merge } from "./operators/mapping/merge";
 import { MergeMapSample } from "./operators/mapping/mergeMap";
+import { ExhaustAll } from "./operators/mapping/exhaustAll";
 
 // CombineAllSamples.run();
 // CombineLatestWithSamples.Run();
@@ -23,4 +24,5 @@ import { MergeMapSample } from "./operators/mapping/mergeMap";
 // ConcatMapSamples.Run();
 // ConcatSample.Run();
 // Merge.Run();
-MergeMapSample.Run();
+// MergeMapSample.Run();
+ExhaustAll.Run();
